@@ -63,7 +63,6 @@ console.log("Number of scores: " + json.length);
             tabCell2.innerHTML = json[x].finalscore;
         }
     scoreDiv.innerHTML = "";
-    // const text = document.createTextNode("Top 3 scores: " + json);
     scoreDiv.appendChild(table);
 }
 
@@ -86,7 +85,7 @@ function playGame() {
     playerName = document.getElementById("playerName").value;
     console.log("playerName: " + playerName);
     if(playerName.length<3) {
-        setMessage("You must enter your name before playing.", "red");
+        setMessage("You must enter your name before playing", "red");
         return;
     }    
     document.getElementById("startButton").style.display = "none";

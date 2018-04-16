@@ -1,4 +1,4 @@
-body {font-size: 20px; font-family: sans-serif;}
+body {font-size: 20px; font-family: sans-serif; background: blanchedalmond}
 h1 {font-family: 'Luckiest Guy', cursive; font-size: 55px; margin: 10px 0;}
 input {font-size: 20px; margin: 10px 0; width: 150px;}
 button {font-size: 20px; border-radius: 20px; padding: 10px; background: lawngreen; cursor: pointer; position: absolute; left: 240px;}
@@ -34,12 +34,18 @@ span {font-size: 20px;}
   }
 }
 
-
+.infoTxt {
+    font-variant: small-caps;
+    font-size: 25px;
+    font-weight: bolder;
+    color: darkblue;
+}
 
 th {
     column-span: all;
     text-decoration: underline;
     text-align: center;
+    font-style: italic;
 }
 
 #message {
