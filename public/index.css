@@ -33,3 +33,30 @@ span {font-size: 20px;}
       top: 70px;
   }
 }
+
+
+
+th {
+    column-span: all;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#message {
+    height: 30px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+#scoreslink {
+    height: 30px;
+}
+
+#displayscores {
+    width:100%;
+    height:100%;
+}
+
+a {
+    margin-left: 100px;
+}
