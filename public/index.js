@@ -46,7 +46,6 @@ function setMessage(str, color){
 }
 
 function displayScores(json){
-console.log("Number of scores: " + json.length);
     let scoreDiv = document.getElementById("displayscores");
     // Create dynamic table
     let table = document.createElement("table");
